@@ -1,0 +1,16 @@
+CUADERNO DE COMUNICACIONES - PWA
+
+Contenido: index.html, manifest.webmanifest, sw.js, carpeta icons/
+
+PARA QUE SE PUEDA INSTALAR (necesita HTTPS):
+Opción A (la más rápida, 2 minutos):
+  1. Entrá a https://app.netlify.com/drop
+  2. Arrastrá la carpeta completa "pwa" (descomprimida).
+  3. Te da una dirección https. Abrila en el celular.
+  4. Android/Chrome: menú ⋮ > "Instalar app". iPhone/Safari: Compartir > "Agregar a pantalla de inicio".
+
+Opción B: GitHub Pages (subir los archivos a un repositorio y activar Pages).
+
+Opción C (solo en tu compu): en la carpeta ejecutá "python -m http.server 8000"
+  y abrí http://localhost:8000 en Chrome. Se puede instalar desde la barra de direcciones.
+  OJO: desde el celular por wifi (http://IP:8000) NO se instala ni abre la cámara, porque no es HTTPS.
